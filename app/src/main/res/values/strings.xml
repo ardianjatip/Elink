@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Elink</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_history">History</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_event">Title</string>
+    <string name="event_description">The event is about your best friend once in a lifetime moment</string>
+    <string name="title_profile">Profile</string>
+</resources>
