@@ -14,7 +14,7 @@ import id.ac.ui.cs.mobileprogramming.ardian.elink.entity.User;
 @Dao
 public interface UserDao {
     @Insert
-    void insert(User user);
+    void insert(User... user);
 
     @Update
     void update(User user);

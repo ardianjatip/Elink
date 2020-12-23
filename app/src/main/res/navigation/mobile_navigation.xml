@@ -17,12 +17,9 @@
         android:label="@string/title_history"
         tools:layout="@layout/fragment_history" />
 
-    <navigation android:id="@+id/navigation"
-        app:startDestination="@+id/navigation_settings">
-        <fragment
-            android:id="@+id/navigation_notifications"
-            android:name="id.ac.ui.cs.mobileprogramming.ardian.elink.ui.settings.SettingsFragment"
-            android:label="@string/title_settings"
-            tools:layout="@layout/fragment_settings" />
-    </navigation>
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="id.ac.ui.cs.mobileprogramming.ardian.elink.ui.settings.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
 </navigation>
