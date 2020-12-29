@@ -25,15 +25,15 @@ public interface EventDao {
     @Query("DELETE FROM event_table")
     void deleteAllKegiatan();
 
-    @Query("SELECT * FROM event_table ORDER BY date DESC")
+    @Query("SELECT * FROM event_table ORDER BY name DESC")
     LiveData<List<Event>> getAllEvent();
 
-    @Query("SELECT * FROM event_table WHERE datetime(date/1000, 'unixepoch', 'localtime') > datetime('now', 'localtime')  ORDER BY date ASC")
-    LiveData<List<Event>> getFutureEvent();
+//    @Query("SELECT * FROM event_table WHERE datetime(date/1000, 'unixepoch', 'localtime') > datetime('now', 'localtime')  ORDER BY date ASC")
+//    LiveData<List<Event>> getFutureEvent();
 
-    @Query("SELECT * FROM event_table WHERE datetime(date/1000, 'unixepoch', 'localtime') < datetime('now', 'localtime') ORDER BY date DESC")
-    LiveData<List<Event>> getPastEvent();
+//    @Query("SELECT * FROM event_table WHERE datetime(date/1000, 'unixepoch', 'localtime') < datetime('now', 'localtime') ORDER BY date DESC")
+//    LiveData<List<Event>> getPastEvent();
 
-    @Query("SELECT * FROM kegiatan_table WHERE id=:id")
+    @Query("SELECT * FROM event_table WHERE id=:id")
     LiveData<Event> getEventById(String id);
 }
