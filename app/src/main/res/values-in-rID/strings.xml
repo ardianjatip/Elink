@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Elink</string>
+    <string name="title_medicine_name">Nama Obat</string>
+    <string name="hint_enter_med_name">Masukkan Obat</string>
+    <string name="medicine_days">Hari Konsumsi Obat</string>
+    <string name="title_treatment_deadline">Batas Waktu Penggunaan</string>
+    <string name="title_continuous_use">Penggunaan berlanjut</string>
+    <string name="title_reminder">Pengingat</string>
+    <string name="new_medicine">OBAT BARU</string>
+    <string name="every_day">Setiap hari</string>
+    <string name="no_medicine_added">Tidak Ada Obat Yg Ditambahkan</string>
+    <string name="loading_tasks_error">Error ketika memuat medicineAlarms</string>
+    <string name="successfully_saved_me_message">Obat Berhasil Ditambahkan</string>
+    <string name="successfully_deleted_message">Obat Berhasil Dihapus</string>
+    <string name="reminder_message">Waktunya menkonsumsi obat</string>
+    <string name="ignored">DIABAIKAN</string>
+    <string name="taken">DIKONSUMSI</string>
+    <string name="all">SEMUA</string>
+    <string name="menu_filter">Filter</string>
+    <string name="all_label">Semua Obat</string>
+    <string name="ignore_label">Obat Diabaikan</string>
+    <string name="taken_label">Obat Dikonsumsi</string>
+    <string name="no_history">Tidak Ada Riwayat</string>
+    <string name="no_taken_med_history">Kamu belum mengkonsumsi obat</string>
+    <string name="no_ignored_history">Sudah Dilakukan Dengan Baik</string>
+    <string name="menu_stats">Laporan Bulanan</string>
+    <string name="notification_title">Waktunya minum obat!</string>
+</resources>
