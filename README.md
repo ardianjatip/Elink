@@ -1,2 +1,0 @@
-# Elink
-Mid semester assignment
